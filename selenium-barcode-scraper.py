@@ -4,7 +4,7 @@ import selenium.common.exceptions as sel_exc
 import pandas as pd
 from time import sleep
 
-CHROMEDRIVER_PATH = '/Users/josephodeh/chromedriver'
+CHROMEDRIVER_PATH = '/path/to/chromedriver'
 options = Options()
 options.headless = True
 chromeBrowser = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
